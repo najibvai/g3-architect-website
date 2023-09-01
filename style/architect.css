@@ -109,24 +109,60 @@ main {
     font-weight: 700;
 }
 
+/* --------------Feature Section Style------------------ */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 146px;
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-yers-badge {
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    padding: 40px;
+}
+.ten-yers-badge h2{
+    font-size: 4rem;
+}
+
+
+
 /*------------------ Facts Section Style--------------- */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
+
 .facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     color: #727272;
     font-weight: 600;
     font-size: 1.23rem;
     margin-top: 5px;
 }
-.facts-card-container .card-stats{
+
+.facts-card-container .card-stats {
     color: #424242;
     text-align: center;
     font-size: 2.8rem;
@@ -134,18 +170,21 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /*---------------- Sponsors Section--------------- */
-.sponsors{
+.sponsors {
     text-align: center;
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
 }
-.sponsors-img-container img{
+
+.sponsors-img-container img {
     width: 165px;
 }
 
@@ -164,8 +203,7 @@ main {
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container
-     {
+    .sponsors-img-container {
         flex-direction: column;
     }
 
@@ -173,11 +211,13 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content, .facts-card-container {
+    .teams-content,
+    .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         gap: 20px;
     }
 }
