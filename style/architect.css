@@ -15,6 +15,10 @@
     font-size: 1.25rem;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: yellow;
+    color: #131313;
+}
 
 .text-light-gray {
     color: #727272;
@@ -109,7 +113,7 @@ main {
     font-weight: 700;
 }
 
-/* --------------Feature Section Style------------------ */
+/* --------------Feature and Ten Years Exparience Section Style------------------ */
 .features {
     display: flex;
     margin-top: 130px;
@@ -129,7 +133,8 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feature-img img{
+
+.feature-img img {
     height: 90%;
     margin-left: 90px;
 }
@@ -144,11 +149,13 @@ main {
     position: relative;
     bottom: 160px;
 }
-.ten-yers-badge h2{
+
+.ten-yers-badge h2 {
     font-size: 4rem;
     margin: 0px;
 }
-.ten-yers-badge p{
+
+.ten-yers-badge p {
     font-size: 1.5rem;
 }
 
@@ -200,7 +207,27 @@ main {
     width: 165px;
 }
 
+/* ----------------------Footer Section------------------ */
+.footer {
+    /* border-radius: 8px;
+    background: #FFF4E7; */
+    height: 100px;
+    /* margin-right: 240px;
+    margin-left: 240px; */
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
 
+.footer-section {
+    color: #424242;
+    font-size: 1.1rem;
+    margin: 0 240px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 40px 0px ;
+    border: 1px solid green;
+}
 
 
 
@@ -219,11 +246,13 @@ main {
     .sponsors-img-container {
         flex-direction: column;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 95%;
         margin-left: 0;
     }
-    .ten-yers-badge{
+
+    .ten-yers-badge {
         position: static;
         max-width: 300px;
     }
@@ -241,6 +270,11 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+    .footer-section{
+        padding: 20px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 /* Tablet or Medium Device Responsiv */
@@ -254,5 +288,10 @@ main {
     .features,
     .sponsors-img-container {
         flex-direction: column;
+    }
+    .footer-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px 10px;
     }
 }
